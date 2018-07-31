@@ -1,1 +1,130 @@
-<!-- Suelta tus manos y tu mente para solucionar este reto -->
+<!DOCTYPE html>
+<html lang='pt-br'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <title>LabCar</title>
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO' crossorigin='anonymous'>
+    <link rel='stylesheet' href='css/main.css'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.1.0/css/all.css' integrity='sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt' crossorigin='anonymous'>
+  </head>
+  <body>
+    <!-- navbar  -->
+    <header>
+      <nav class='navbar navbar-expand-sm navbar-light bg-white my-3'>
+        <div class='container'>
+          <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSite' aria-controls='navbarSite' aria-label='Toggle navigation'>
+            <span class='navbar-toggler-icon'></span>
+          </button>
+          <a class='navbar-brand' href='#'>
+            <img src='assets/images/logoForma.png' width='130'>
+          </a>
+          <div class='collapse navbar-collapse' id='navbarSite'>
+            <ul class='navbar-nav ml-auto'>
+              <li class='nav-item text-muted
+              '>
+                <a class='nav-link text-center mx-2' href='#'>Viajar</a>
+              </li>
+              <li class='nav-item text-muted'>
+                <a class='nav-link text-center mx-2' href='#'>Dirigir</a>
+              </li>
+              <li class='nav-item text-muted'>
+                <a class='nav-link text-center mx-2' href='#'>Iniciar Sessão</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- LabCar -->
+    <section class='container-fluid taxi'>
+      <div class='row pt-4 mt-4'>
+        <div class='col-md-5 ml-auto mt-5 pt-5'>
+          <div class='jumbotron-fluid card-taxi px-4 py-4'>
+            <h4 class='text-white text-wrap'>Aproveite a viagem</h4>
+            <h4 class='text-white text-wrap'>Você possui seu tempo</h4>
+            <h5 class='text-white pt-3'>Viajar com
+              <img class='img-fluid pb-1' src='assets/images/LogoBlanco.png' height='auto' width='100'>
+            </h5>
+            <button type='button' class='btn text-dark bg-white mt-2'>INCREVER-SE</button>
+            <hr class='text w-75 my-4'>
+            <button type='button' class='btn text-dark bg-white mt-2'>Tornar-se um motorista</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- app -->
+    <section class='container-fluid iphone'>
+      <div class='row'>
+        <div class='col-md-10 q-iphone'>
+          <div class='row d-flex align-items-md-center'>
+            <div class='col-md-1 d-sm-none d-block'>
+              <h3 class='text-white'>Baixe o novo app</h3>
+            </div>
+            <div class='col-md-6 d-flex justify-content-center py-4'>
+              <img class='img-fluid' src='assets/images/iPhone6Plus.png' width='380'>
+            </div>
+            <div class='col-md-5'>
+              <h3 class='text-white d-none d-sm-block'>Baixe o novo app</h3>
+              <p class='text-white info-iphone d-none d-sm-block'>
+                A versão atualizada do LabCar está cheio de novas funções para chegar onde você quer ainda mais fácil e rápido.
+              </p>
+              <p class='text-white info-iphone d-none d-sm-block'>
+                Ao toque de um botão, um carro chega na sua localização. Levante-se e não se preocupe: seu motorista sabe exatamente para onde ir
+              </p>
+            </div>
+          </div>
+        </div>
+        <p class='col-sm-1 text-white info-iphone d-sm-none d-block'>Chegar ao seu destino ainda mais rápido</p>
+      </div>
+    </section>
+    <!-- drive -->
+    <section class='container-fluid drive'>
+      <div class='row'>
+        <div class='col-md-4 card-drive ml-auto pl-4'>
+          <h3 class='text-white'>Trabalhe quando quiser</h3>
+          <p class='text-white lead' style='line-height:1.3rem'> LabCar é uma opção flexível para atingir seus objetivos financeiros.
+          <button type='button' class='btn text-dark bg-warning mt-2'>Tornar-se um motorista</button>
+        </div>
+      </div>
+    </section>
+    <!-- map -->
+    <section class='container-fluid map'>
+      <div class='row d-flex align-content-center flex-wrap'>
+        <div class='col-md-5 ml-5 pl-5 pt-5 mt-4'>
+          <h4 class="text-white">Tarifas</h4>
+          <p class="text-white">Confira as taxas do LabCar aqui</p>
+          <form>
+            <div class='form-group row'>
+              <label class="col-sm-1 col-form-label"><img class='img' src='assets/images/shape.png'></label>
+              <div class='col-sm-10'>
+                <input type="text" class="form-control bg-transparent" placeholder="Digite seu ponto de partida">
+              </div>
+            </div>
+            <div class='form-group row'>
+              <label class='col-sm-1 col-form-label'><img class='img' src='assets/images/shape2.png'></label>
+              <div class='col-sm-10'>
+                <input type="text" class="form-control bg-transparent" placeholder="Digite seu destino">
+              </div>
+            </div>
+            <div class='form-group row justify-content-center'>
+              <button type='button' class='btn text-dark bg-white mt-2 '>Traçar rota!</button>
+            </div>
+          </form>
+        </div>
+        <div class='card col-md-5 mt-4 bg-transparent border-white'>
+          <div class='card-img'>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64566160.679357685!2d-113.23111141813847!3d-8.990018785911271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x90f99effb40af535%3A0xd2673dbf02a5b69c!2sLatin+America!5e0!3m2!1spt-BR!2sbr!4v1533070563198" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+      <div class='container-fluid'>
+    </footer>
+    <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js' integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49' crossorigin='anonymous'></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js' integrity='sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy' crossorigin='anonymous'></script>
+  </body>
+</html>
