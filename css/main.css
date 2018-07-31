@@ -1,1 +1,76 @@
-/* Los estilos de tu proyecto */
+/*# sourceMappingURL=main.css.map */
+body, html{
+  margin: 0;
+  height: 100%;
+}
+
+/* LabCar */
+.taxi{
+  background: url('../assets/images/taxi.jpg')no-repeat bottom center;
+  background-size: cover;
+  height:40.3125rem;
+}
+
+.card-taxi, hr.text:after, .iphone, .map{
+  background-color: #f7b617;
+}
+
+hr.text{
+  text-align: center;
+  border-top: solid 0.0625rem white;
+}
+
+hr.text:after{
+  position: relative;
+  top: -1rem;
+  display: inline-block;
+  padding-left: 1.5625rem;
+  padding-right: 1.5625rem;
+  content: 'ou';
+  font-size: 1.125rem;
+  color: white
+}
+
+/* app */
+.iphone{
+  margin-top: -5.5rem;
+}
+
+.q-iphone{
+  border: 0.0625rem solid white;
+  margin: 1.8rem 0;
+}
+
+.info-iphone{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+/* drive */
+.drive{
+  background: url('../assets/images/conduce.jpg')no-repeat top center;
+  background-size: cover;
+  height:40.3125rem;
+  margin-top: -12rem;
+  position: relative;
+  z-index: -1;
+}
+
+.card-drive{
+  background-color: rgb(2, 1, 3, 0.5);
+  height: 40rem;
+  padding-top: 17rem;
+  padding-right: 2rem;
+}
+
+/* map */
+.map{
+  margin-top: -7rem;
+  height: 27.5rem;
+}
+
+footer{
+  background-color: black;
+  height: 27.5rem;
+}
